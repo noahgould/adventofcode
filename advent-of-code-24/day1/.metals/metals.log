@@ -1,0 +1,676 @@
+2024.12.22 16:48:36 INFO  Started: Metals version 1.4.2 in folders '/home/ngould/source/advent-of-code-24/day1' for client Visual Studio Code 1.78.2.[0m
+2024.12.22 16:48:36 INFO  no build target found for /home/ngould/source/advent-of-code-24/day1/day1.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.22 16:48:37 INFO  Attempting to connect to the build server...[0m
+2024.12.22 16:48:37 INFO  no build target found for /home/ngould/source/advent-of-code-24/day1/day1.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.22 16:48:42 INFO  Running BSP server List(/home/ngould/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.5.2/scala3-3.5.2-x86_64-pc-linux.tar.gz/scala3-3.5.2-x86_64-pc-linux/bin/scala-cli, --cli-default-scala-version, 3.5.2, --repository, file:///home/ngould/.cache/coursier/arc/https/github.com/scala/scala3/releases/download/3.5.2/scala3-3.5.2-x86_64-pc-linux.tar.gz/scala3-3.5.2-x86_64-pc-linux/maven2, --prog-name, scala, bsp, --json-options, /home/ngould/source/advent-of-code-24/day1/.scala-build/ide-options-v2.json, --json-launcher-options, /home/ngould/source/advent-of-code-24/day1/.scala-build/ide-launcher-options.json, --envs-file, /home/ngould/source/advent-of-code-24/day1/.scala-build/ide-envs.json, /home/ngould/source/advent-of-code-24/day1)[0m
+2024.12.22 16:48:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/ngould/source/advent-of-code-24/day1/.metals/bsp.trace.json or /home/ngould/.cache/metals/bsp.trace.json[0m
+2024.12.22 16:48:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.1/geny_3-1.1.1-sources.jar[0m
+2024.12.22 16:48:42 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.11.3/os-lib_3-0.11.3-sources.jar[0m
+2024.12.22 16:48:45 INFO  no build target found for /home/ngould/source/advent-of-code-24/day1/day1.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.22 16:48:45 INFO  no build target found for /home/ngould/source/advent-of-code-24/day1/day1.scala. Using presentation compiler with project's scala-library version: 3.3.4[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_3/1.1.1/geny_3-1.1.1-sources.jar[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/lihaoyi/os-lib_3/0.11.3/os-lib_3-0.11.3-sources.jar[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2024.12.22 16:48:45 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar[0m
+2024.12.22 16:48:46 INFO  time: Connected to build server in 9.13s[0m
+2024.12.22 16:48:46 INFO  Connected to Build server: scala v1.4.3[0m
+2024.12.22 16:48:46 INFO  running doctor check[0m
+2024.12.22 16:48:46 INFO  java targets: day1_5e7af71d9f-test, day1_5e7af71d9f[0m
+2024.12.22 16:48:46 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:46 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 16:48:46 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:46 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 16:48:50 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:50 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 16:48:56 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:56 INFO  time: compiled day1_5e7af71d9f in 0.14s[0m
+2024.12.22 16:48:58 INFO  time: indexed workspace in 12s[0m
+2024.12.22 16:48:58 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:58 INFO  time: compiled day1_5e7af71d9f in 0.14s[0m
+2024.12.22 16:48:58 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+2024.12.22 16:48:58 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 16:48:59 INFO  compiling day1_5e7af71d9f (2 scala sources)[0m
+Dec 22, 2024 4:49:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 60
+2024.12.22 16:48:59 INFO  time: compiled day1_5e7af71d9f in 0.55s[0m
+2024.12.22 16:49:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:12 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 16:49:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:15 INFO  time: compiled day1_5e7af71d9f in 0.13s[0m
+2024.12.22 16:49:18 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:18 INFO  time: compiled day1_5e7af71d9f in 0.15s[0m
+2024.12.22 16:49:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:24 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 16:49:29 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:29 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 16:49:39 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:39 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 16:49:41 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:41 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 16:49:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:51 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 16:49:54 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:49:54 INFO  time: compiled day1_5e7af71d9f in 0.56s[0m
+2024.12.22 16:50:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:12 INFO  time: compiled day1_5e7af71d9f in 0.36s[0m
+2024.12.22 16:50:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:21 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 16:50:29 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:29 INFO  time: compiled day1_5e7af71d9f in 0.31s[0m
+2024.12.22 16:50:44 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:44 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+2024.12.22 16:50:53 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:53 INFO  time: compiled day1_5e7af71d9f in 0.26s[0m
+2024.12.22 16:50:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:56 INFO  time: compiled day1_5e7af71d9f in 0.3s[0m
+2024.12.22 16:50:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 16:50:57 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:01:49 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:01:49 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 17:01:50 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:01:50 INFO  time: compiled day1_5e7af71d9f in 0.3s[0m
+2024.12.22 17:01:52 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:01:52 INFO  time: compiled day1_5e7af71d9f in 0.27s[0m
+2024.12.22 17:02:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:02 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:02:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:06 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:02:08 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:08 INFO  time: compiled day1_5e7af71d9f in 97ms[0m
+2024.12.22 17:02:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:12 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:02:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:15 INFO  time: compiled day1_5e7af71d9f in 95ms[0m
+2024.12.22 17:02:25 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:25 INFO  time: compiled day1_5e7af71d9f in 0.25s[0m
+2024.12.22 17:02:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:35 INFO  time: compiled day1_5e7af71d9f in 0.26s[0m
+2024.12.22 17:02:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:02:51 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:03:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:03:21 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 17:03:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:03:30 INFO  time: compiled day1_5e7af71d9f in 0.28s[0m
+Dec 22, 2024 5:03:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 705
+2024.12.22 17:03:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:03:43 INFO  time: compiled day1_5e7af71d9f in 0.12s[0m
+2024.12.22 17:03:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:03:51 INFO  time: compiled day1_5e7af71d9f in 0.24s[0m
+2024.12.22 17:03:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:03:59 INFO  time: compiled day1_5e7af71d9f in 0.3s[0m
+2024.12.22 17:04:08 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:04:08 INFO  time: compiled day1_5e7af71d9f in 0.26s[0m
+2024.12.22 17:04:29 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:04:29 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:04:46 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:04:46 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:04:47 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:04:47 INFO  time: compiled day1_5e7af71d9f in 0.25s[0m
+2024.12.22 17:04:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:04:56 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:05:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:00 INFO  time: compiled day1_5e7af71d9f in 91ms[0m
+2024.12.22 17:05:05 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:05 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:05:10 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:10 INFO  time: compiled day1_5e7af71d9f in 97ms[0m
+2024.12.22 17:05:14 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:14 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:05:34 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:34 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:05:36 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:36 INFO  time: compiled day1_5e7af71d9f in 0.23s[0m
+2024.12.22 17:05:38 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:38 INFO  time: compiled day1_5e7af71d9f in 95ms[0m
+2024.12.22 17:05:42 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:42 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:05:49 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:49 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:05:55 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:55 INFO  time: compiled day1_5e7af71d9f in 80ms[0m
+2024.12.22 17:05:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:57 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:05:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:05:59 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:06:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:04 INFO  time: compiled day1_5e7af71d9f in 73ms[0m
+2024.12.22 17:06:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:12 INFO  time: compiled day1_5e7af71d9f in 98ms[0m
+2024.12.22 17:06:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:16 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:06:22 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:22 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:06:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:24 INFO  time: compiled day1_5e7af71d9f in 0.24s[0m
+2024.12.22 17:06:38 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:38 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:06:45 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:45 INFO  time: compiled day1_5e7af71d9f in 0.24s[0m
+2024.12.22 17:06:47 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:47 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:06:50 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:06:50 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:07:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:00 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:07:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:06 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:07:13 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:13 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+2024.12.22 17:07:20 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:20 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:07:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:24 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:07:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:35 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:07:42 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:42 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:07:44 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:44 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:07:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:51 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+2024.12.22 17:07:55 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:55 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:07:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:07:56 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:08:05 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:08:05 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:08:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:08:57 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:09:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:00 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:09:03 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:03 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:09:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:06 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:09:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:12 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:09:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:16 INFO  time: compiled day1_5e7af71d9f in 94ms[0m
+2024.12.22 17:09:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:17 INFO  time: compiled day1_5e7af71d9f in 86ms[0m
+2024.12.22 17:09:20 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:20 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:09:28 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:28 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:09:31 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:31 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:09:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:35 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:09:36 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:36 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:09:40 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:40 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:09:58 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:09:58 INFO  time: compiled day1_5e7af71d9f in 0.23s[0m
+2024.12.22 17:10:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:02 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:10:11 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:11 INFO  time: compiled day1_5e7af71d9f in 94ms[0m
+2024.12.22 17:10:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:12 INFO  time: compiled day1_5e7af71d9f in 95ms[0m
+2024.12.22 17:10:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:17 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:10:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:24 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:10:48 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:48 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:10:54 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:54 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:10:55 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:10:55 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:11:03 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:03 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:11:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:06 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:11:44 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:44 INFO  time: compiled day1_5e7af71d9f in 0.23s[0m
+2024.12.22 17:11:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:51 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:11:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:56 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+Dec 22, 2024 5:11:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2702
+2024.12.22 17:11:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:11:59 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:12:01 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:12:01 INFO  time: compiled day1_5e7af71d9f in 0.23s[0m
+2024.12.22 17:13:11 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:11 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:13:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:15 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:13:19 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:19 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:13:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:21 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+2024.12.22 17:13:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:24 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:13:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:30 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:13:33 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:33 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:13:54 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:13:54 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+Dec 22, 2024 5:16:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2890
+2024.12.22 17:16:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:12 INFO  time: compiled day1_5e7af71d9f in 0.24s[0m
+2024.12.22 17:16:16 ERROR /home/ngould/source/advent-of-code-24/day1/day1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:512)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:948)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.12.22 17:16:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:16 INFO  time: compiled day1_5e7af71d9f in 62ms[0m
+2024.12.22 17:16:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:21 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:16:32 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:32 INFO  time: compiled day1_5e7af71d9f in 87ms[0m
+2024.12.22 17:16:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:35 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:16:37 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:37 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+Dec 22, 2024 5:16:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3215
+2024.12.22 17:16:51 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:51 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:16:52 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:52 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:16:54 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:54 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:16:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:16:56 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:17:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:00 INFO  time: compiled day1_5e7af71d9f in 88ms[0m
+2024.12.22 17:17:03 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:03 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:17:05 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:05 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:17:13 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:13 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:17:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:16 INFO  time: compiled day1_5e7af71d9f in 84ms[0m
+2024.12.22 17:17:25 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:25 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:17:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:35 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:17:37 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:37 INFO  time: compiled day1_5e7af71d9f in 88ms[0m
+2024.12.22 17:17:42 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:42 INFO  time: compiled day1_5e7af71d9f in 88ms[0m
+2024.12.22 17:17:44 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:44 INFO  time: compiled day1_5e7af71d9f in 89ms[0m
+2024.12.22 17:17:47 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:47 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:17:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:56 INFO  time: compiled day1_5e7af71d9f in 90ms[0m
+2024.12.22 17:17:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:17:57 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:18:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:00 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:18:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:04 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:18:07 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:07 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:18:11 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:11 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+Dec 22, 2024 5:18:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3676
+2024.12.22 17:18:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:17 INFO  time: compiled day1_5e7af71d9f in 80ms[0m
+2024.12.22 17:18:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:24 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:18:27 ERROR /home/ngould/source/advent-of-code-24/day1/day1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:76)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.acceptTrivia(ScalaToplevelMtags.scala:1002)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMethodArgs(ScalaToplevelMtags.scala:686)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.parseMemberDefinitionLhs(ScalaToplevelMtags.scala:665)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:338)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:88)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:485)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:583)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:580)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:580)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:948)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+[0m
+2024.12.22 17:18:27 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:27 INFO  time: compiled day1_5e7af71d9f in 70ms[0m
+2024.12.22 17:18:33 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:33 INFO  time: compiled day1_5e7af71d9f in 84ms[0m
+2024.12.22 17:18:34 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:34 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:18:38 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:38 INFO  time: compiled day1_5e7af71d9f in 72ms[0m
+2024.12.22 17:18:39 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:39 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:18:41 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:41 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:18:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:18:43 INFO  time: compiled day1_5e7af71d9f in 68ms[0m
+2024.12.22 17:19:32 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:19:32 INFO  time: compiled day1_5e7af71d9f in 90ms[0m
+2024.12.22 17:19:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:19:35 INFO  time: compiled day1_5e7af71d9f in 95ms[0m
+2024.12.22 17:19:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:19:43 INFO  time: compiled day1_5e7af71d9f in 73ms[0m
+2024.12.22 17:19:50 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:19:50 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:19:54 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:19:54 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:20:03 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:03 INFO  time: compiled day1_5e7af71d9f in 80ms[0m
+2024.12.22 17:20:10 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:10 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:20:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:15 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:20:22 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:22 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:20:26 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:26 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:20:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:35 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:20:41 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:41 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:20:45 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:45 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:20:49 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:49 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:20:58 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:20:58 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:21:00 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:00 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:21:01 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:01 INFO  time: compiled day1_5e7af71d9f in 0.11s[0m
+2024.12.22 17:21:18 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:18 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:21:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:24 INFO  time: compiled day1_5e7af71d9f in 78ms[0m
+2024.12.22 17:21:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:30 INFO  time: compiled day1_5e7af71d9f in 73ms[0m
+2024.12.22 17:21:32 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:32 INFO  time: compiled day1_5e7af71d9f in 74ms[0m
+2024.12.22 17:21:34 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:34 INFO  time: compiled day1_5e7af71d9f in 85ms[0m
+2024.12.22 17:21:45 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:45 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:21:53 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:21:53 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:22:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:06 INFO  time: compiled day1_5e7af71d9f in 92ms[0m
+2024.12.22 17:22:09 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:09 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:22:10 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:10 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:22:22 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:22 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:22:25 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:25 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:22:27 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:27 INFO  time: compiled day1_5e7af71d9f in 72ms[0m
+2024.12.22 17:22:28 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:28 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:22:29 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:29 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:22:33 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:33 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:22:41 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:41 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:22:47 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:47 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:22:53 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:53 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:22:55 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:22:55 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:23:05 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:05 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:23:07 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:07 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:23:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:12 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:23:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:17 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:23:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:21 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:23:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:30 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:23:42 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:42 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:23:49 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:49 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:23:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:23:59 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:24:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:02 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:24:11 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:11 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:24:21 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:21 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:24:28 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:28 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:24:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:35 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:24:39 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:24:39 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:25:38 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:25:38 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:25:44 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:25:44 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:25:53 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:25:53 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:25:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:25:59 INFO  time: compiled day1_5e7af71d9f in 77ms[0m
+2024.12.22 17:26:08 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:08 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:26:09 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:09 INFO  time: compiled day1_5e7af71d9f in 84ms[0m
+2024.12.22 17:26:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:12 INFO  time: compiled day1_5e7af71d9f in 93ms[0m
+2024.12.22 17:26:13 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:13 INFO  time: compiled day1_5e7af71d9f in 76ms[0m
+2024.12.22 17:26:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:15 INFO  time: compiled day1_5e7af71d9f in 78ms[0m
+2024.12.22 17:26:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:17 INFO  time: compiled day1_5e7af71d9f in 69ms[0m
+2024.12.22 17:26:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:24 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:26:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:30 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:26:32 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:26:32 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:27:01 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:27:01 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:27:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:27:04 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:28:52 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:28:52 INFO  time: compiled day1_5e7af71d9f in 0.22s[0m
+2024.12.22 17:29:01 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:01 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:29:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:04 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:29:05 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:05 INFO  time: compiled day1_5e7af71d9f in 0.26s[0m
+2024.12.22 17:29:08 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:08 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:29:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:15 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:29:17 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:17 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:29:19 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:19 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:29:20 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:20 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:29:25 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:25 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:29:26 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:26 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:29:35 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:35 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:29:38 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:38 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:29:41 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:41 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+Dec 22, 2024 5:29:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5816
+2024.12.22 17:29:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:57 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:29:58 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:29:58 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:30:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:06 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:30:10 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:10 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:30:12 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:12 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:30:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:16 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:30:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:24 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:30:30 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:30 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:30:32 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:32 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:30:33 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:33 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:30:37 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:37 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:30:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:43 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:30:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:30:45 INFO  time: compiled day1_5e7af71d9f in 0.15s[0m
+2024.12.22 17:31:07 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:31:07 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:31:14 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:31:14 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:31:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:31:15 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:31:37 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:31:37 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:31:40 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:31:40 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:32:20 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:20 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:32:40 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:40 INFO  time: compiled day1_5e7af71d9f in 81ms[0m
+2024.12.22 17:32:42 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:42 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:32:47 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:47 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:32:48 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:48 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:32:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:56 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:32:58 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:32:58 INFO  time: compiled day1_5e7af71d9f in 69ms[0m
+2024.12.22 17:33:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:02 INFO  time: compiled day1_5e7af71d9f in 78ms[0m
+2024.12.22 17:33:03 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:03 INFO  time: compiled day1_5e7af71d9f in 79ms[0m
+2024.12.22 17:33:11 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:11 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:33:16 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:16 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:33:18 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:18 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:33:24 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:24 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:33:55 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:55 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:33:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:33:59 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:34:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:02 INFO  time: compiled day1_5e7af71d9f in 0.16s[0m
+2024.12.22 17:34:06 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:06 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+Dec 22, 2024 5:34:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6982
+2024.12.22 17:34:14 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:14 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:34:19 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:19 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:34:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:43 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:34:46 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:46 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:34:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:34:56 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:35:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:04 INFO  time: compiled day1_5e7af71d9f in 0.27s[0m
+2024.12.22 17:35:13 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:13 INFO  time: compiled day1_5e7af71d9f in 0.21s[0m
+2024.12.22 17:35:15 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:15 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:35:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:43 INFO  time: compiled day1_5e7af71d9f in 79ms[0m
+2024.12.22 17:35:46 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:46 INFO  time: compiled day1_5e7af71d9f in 88ms[0m
+2024.12.22 17:35:50 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:50 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:35:57 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:57 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:35:59 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:35:59 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:36:02 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:36:02 INFO  time: compiled day1_5e7af71d9f in 83ms[0m
+2024.12.22 17:36:04 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:36:04 INFO  time: compiled day1_5e7af71d9f in 80ms[0m
+2024.12.22 17:36:08 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:36:08 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:36:37 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:36:37 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:37:19 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:19 INFO  time: compiled day1_5e7af71d9f in 0.19s[0m
+2024.12.22 17:37:25 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:25 INFO  time: compiled day1_5e7af71d9f in 75ms[0m
+2024.12.22 17:37:28 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:28 INFO  time: compiled day1_5e7af71d9f in 0.17s[0m
+2024.12.22 17:37:33 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:33 INFO  time: compiled day1_5e7af71d9f in 0.2s[0m
+2024.12.22 17:37:43 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:43 INFO  time: compiled day1_5e7af71d9f in 0.1s[0m
+2024.12.22 17:37:49 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:49 INFO  time: compiled day1_5e7af71d9f in 80ms[0m
+2024.12.22 17:37:52 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:52 INFO  time: compiled day1_5e7af71d9f in 82ms[0m
+2024.12.22 17:37:56 INFO  compiling day1_5e7af71d9f (1 scala source)[0m
+2024.12.22 17:37:56 INFO  time: compiled day1_5e7af71d9f in 0.18s[0m
+2024.12.22 17:45:00 INFO  Shutting down server[0m
+2024.12.22 17:45:00 INFO  shutting down Metals[0m
+2024.12.22 17:45:00 INFO  Shut down connection with build server.[0m
+2024.12.22 17:45:00 INFO  Exiting server[0m

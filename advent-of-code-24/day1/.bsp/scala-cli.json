@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/ngould/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/ngould/source/advent-of-code-24/day1/.scala-build/ide-options-v2.json",
+    "/home/ngould/source/advent-of-code-24/day1/day1.scala"
+  ],
+  "version": "1.0.0-RC2",
+  "bspVersion": "2.1.0-M3",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}
